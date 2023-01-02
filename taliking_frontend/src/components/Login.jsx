@@ -19,7 +19,7 @@ const Login = () => {
       image: imageUrl,
     };
     client.createIfNotExists(doc).then(() => {
-      navigate('/', { replace: true });
+      navigate('/*', { replace: true });
     });
   };
 
